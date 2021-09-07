@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <title>Calidad Coffee</title>
+        <meta name="description" content="The best coffee in North America. Explore our menu and discover a great rewards system, made to treat you every visit!">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar container" id="navbar">
+                <img id="nav-logo" alt="none" src="/assets/coffeebean-white.svg">
+                <button onclick="menuToggle()" class="hamburger" id="hamburger">
+                    <img alt="none" src="/assets/hamburger-menu.svg">
+                </button>
+            </nav>
+            <ul class="nav-list container" id="nav-list">
+                <li class="nav-item-container"><a href="/index.html" class="nav-list-item">Home</a></li>
+                <li class="nav-item-container"><a href="#" class="nav-list-item">Products</a></li>
+                <li class="nav-item-container"><a href="#" class="nav-list-item">Rewards</a></li>
+                <li class="nav-item-container"><a href="#" class="nav-list-item">Contact</a></li>
+            </ul>
+        </header>
+        <div id="filler"></div>
+        <main class="container main">
+            <div>
+                <p class="banner">Facial coverings are now optional in our stores for our fully vaccinated customers, following CDC guidance. <a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/about-face-coverings.html">Learn more here</a></p>
+            </div>
+            <div class="card">
+                <section class="content content-container">
+                    <h1 class="card-text card-title">Our Mission</h1>
+                    <p class="card-text">Our main goal is keeping customers happy while giving back to the community. From charity events to our rewards system — our aspirations focus on what's most important... You!</p>
+                    <button type="button" class="btn">Learn More</button>
+                </section>
+                <section class="content">
+                    <img alt="none" class="card-pic" src="/assets/coffee.jpeg">
+                </section>
+            </div>
+            <div class="card card-alt">
+                <section class="content">
+                    <img alt="none" class="card-pic-alt" src="/assets/sugar_coffee.jpeg">
+                </section>
+                <section class="content content-container">
+                    <h1 class="card-text card-title">Special Mixes</h1>
+                    <p class="card-text">Our products go well with most things. Every flavor we offer exists to cater to anyone's preferences — whether sweet, neutral, or bitter.</p>
+                    <button type="button" class="btn">Order Now</button>
+                </section>
+            </div>
+            <div class="card">
+                <section class="content content-container">
+                    <h1 class="card-text card-title">Rewards</h1>
+                    <p class="card-text">We care about our customers, so we've introduced a program designed to give back. Here every purchase really does count!</p>
+                    <button type="button" class="btn">Discover Rewards</button>
+                </section>
+                <section class="content">
+                    <img alt="none" class="card-pic" src="/assets/serve_coffee.jpeg">
+                </section>
+            </div>
+            <div class="card card-alt">
+                <section class="content">
+                    <img alt="none" class="card-pic-alt" src="/assets/coffee_beans.jpeg">
+                </section>
+                <section class="content content-container">
+                    <h1 class="card-text card-title">All Natural</h1>
+                    <p class="card-text">All of our products are natural, with no added preservatives or harmful chemicals. We believe nature provides the best ingredients, so we keep things as they are.</p>
+                    <button type="button" class="btn">Learn More</button>
+                </section>
+            </div>
+        </main>
+        <footer class="container main">
+            <ul class="container footer-container">
+                <li class="footer-content">Policies</li>
+                <li class="footer-content">Cookies</li>
+                <li class="footer-content">Events</li>
+                <li class="footer-content">Contact</li>
+            </ul>
+            <section id="copyright">No Copyright Calidad Coffee 20XX.</section>
+        </footer>
+        <script src="/scripts/menuToggle.js"></script>
+    </body>
+</html>
